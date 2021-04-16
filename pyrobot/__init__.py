@@ -51,9 +51,6 @@ except BaseException as ef:
 TOKEN = Config.TOKEN
 APP_ID = Config.APP_ID
 API_HASH = Config.API_HASH
-TOKEN = Config.TOKEN
-APP_ID = Config.APP_ID
-API_HASH = Config.API_HASH
 OWNER_ID = Config.OWNER_ID
 PREFIX_HANDLER = Config.PREFIX_HANDLER
 WORKERS = Config.WORKERS
