@@ -1,0 +1,53 @@
+{
+    "name": "PyroBot",
+    "description": "A Simple Telegram Bot written in Python using Pyrogram.",
+    "keywords": [
+        "telegram",
+        "python",
+        "pyrogram",
+        "pyrobot",
+        "pyrogram bot",
+        "telegram bot",
+        "tg bot"
+    ],
+    "repository": "https://github.com/DivideProjects/PyroBot",
+    "success_url": "https://t.me/DivideProjects",
+    "website": "https://github.com/DivideProjects",
+    "env": {
+        "ENV": {
+            "description": "Setting this to ANYTHING will enable environment variables.",
+            "value": "ANYTHING"
+        },
+        "APP_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "Bot Token - Get this value from @BotFather",
+            "required": true
+        },
+        "PREFIX_HANDLER": {
+            "description": "Prefix for bot commands, such as '/' and '!', sperate by spaces",
+            "required": true,
+            "value": "/ !"
+        },
+        "NO_LOAD": {
+            "description": "Plugins you don't want to loaded by bot",
+            "required": false
+        },
+        "OWNER_ID": {
+            "description": "Your Telegram ID, get by sending /info ti @Alita_Robot on Telegram",
+            "required": true
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
