@@ -1,7 +1,7 @@
 from time import time
 
 from pyrogram import filters
-from pyrogram.types import Message
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from .. import PREFIX_HANDLER
 from ..bot_class import PyroBot
@@ -25,5 +25,23 @@ async def test_bot(_, m: Message):
     replymsg = await m.reply_text("Pinging...")
     await replymsg.edit_text(
         f"<b>Pong!</b>\nTime Taken:{round(time() - start, 2)} seconds",
+    )
+    return
+
+
+@PyroBot.on_message(filters.command("repo", PREFIX_HANDLER))
+async def test_bot(_, m: Message):
+    await m.reply_text(
+        "You can find my repo by clicking the button below!",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "Repo 📚",
+                        url="https://github.com/DivideProjects/PyroBot",
+                    ),
+                ],
+            ],
+        ),
     )
     return
