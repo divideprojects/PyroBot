@@ -35,10 +35,12 @@ class PyroBot(Client):
     async def start(self):
         """Start the bot."""
         await super().start()
+        await self.send_message(MESSAGE_DUMP, "Bot Started!")
         LOGGER.info("Bot Started Successfully!")
 
     async def stop(self):
         """Stop the bot and send a message to MESSAGE_DUMP telling that the bot has stopped."""
         LOGGER.info("Uploading logs before stopping...!")
+        await self.send_message(MESSAGE_DUMP, "Bot Stopped!")
         await super().stop()
         LOGGER.info("Bot Stopped.\nkthxbye!")
