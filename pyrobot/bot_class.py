@@ -24,7 +24,7 @@ class PyroBot(Client):
 
         super().__init__(
             name,
-            plugins=dict(root=f"{name}/plugins"),
+            plugins=dict(root=f"{name}.plugins", exclude=NO_LOAD),
             workdir=SESSION_DIR,
             api_id=APP_ID,
             api_hash=API_HASH,

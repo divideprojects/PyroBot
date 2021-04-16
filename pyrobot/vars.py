@@ -1,7 +1,7 @@
 from os import environ
 
 
-def load_var(var_name, def_value=None):
+def load_var(var_name: str, def_value=None):
     return environ.get(var_name, def_value)
 
 
@@ -13,6 +13,7 @@ class Config:
     API_HASH = load_var("API_HASH")
     OWNER_ID = int(load_var("OWNER_ID"))
     PREFIX_HANDLER = load_var("PREFIX_HANDLER", "/ !").split()
+    NO_LOAD = load_var("NO_LOAD", [])
     WORKERS = int(load_var("WORKERS", 8))
 
 
@@ -25,4 +26,5 @@ class Development:
     API_HASH = "YOUR TOKEN"  # Your APP_HASH from Telegram
     OWNER_ID = "YOUR TOKEN"
     PREFIX_HANDLER = ["!", "/"]
+    NO_LOAD = []
     WORKERS = 8
