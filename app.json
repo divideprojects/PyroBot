@@ -13,6 +13,7 @@
     "repository": "https://github.com/DivideProjects/PyroBot",
     "success_url": "https://t.me/DivideProjects",
     "website": "https://github.com/DivideProjects",
+    "stack": "heroku-20",
     "env": {
         "ENV": {
             "description": "Setting this to ANYTHING will enable environment variables.",
@@ -40,10 +41,28 @@
             "required": false
         },
         "OWNER_ID": {
-            "description": "Your Telegram ID, get by sending /info ti @Alita_Robot on Telegram",
+            "description": "Your Telegram ID, get by sending /info to @Alita_Robot on Telegram",
             "required": true
-        }
+        },
+        "POETRY_VERSION": {
+         "description": "Settings this will change poetry version. DO NOT CHANGE IF YOU DON'T KNOW WHAT YOURE DOING",
+         "required": true,
+         "value": "1.1.6"
+      },
+        "PYTHON_RUNTIME_VERSION": {
+         "description": "Settings this will change the python version. DO NOT CHANGE IF YOU DON'T KNOW WHAT YOURE DOING",
+         "required": true,
+         "value": "3.9.5"
+      }
     },
+    "buildpacks": [
+    {
+      "url": "https://github.com/moneymeets/python-poetry-buildpack.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
     "formation": {
         "worker": {
             "quantity": 1,

@@ -1,6 +1,6 @@
 # PyroBot
 
-Simple Base for Users Who wants to make their own Telegram Bots in **[Pyrogram](http://github.com/Pyrogram/Pyrogram)** without any database.
+Simple Base for Users Who want to make their own Telegram Bots in **[Pyrogram](http://github.com/Pyrogram/Pyrogram)** without any database.
 
 ## How to add modules?
 
@@ -18,9 +18,11 @@ Simple Base for Users Who wants to make their own Telegram Bots in **[Pyrogram](
 
 ### Local Deploy
 
+**Note:** Make sure you already have [poetry](https://python-poetry.org/) installed on your system!
+
 - `git clone https://github.com/DivideProjects/PyroBot.git`
 - `cd PyroBot`
-- `pip3 install -r requirements.txt`
+- `poetry install && poetry shell`
 - Edit The `vars.py` as per the instruction given there.
 - `python3 -m pyrobot`
 

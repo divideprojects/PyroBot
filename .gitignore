@@ -6,6 +6,7 @@ pyrobot/config.py
 *.env
 !sample.env
 logs/
+.idea/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

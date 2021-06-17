@@ -12,7 +12,7 @@ if MESSAGE_DUMP == -100 or not str(MESSAGE_DUMP).startswith("-100"):
 
 
 class PyroBot(Client):
-    """Starts the Pyrogram Client on the Bot Token when we do 'python3 -m alita'"""
+    """Starts the Pyrogram Client on the Bot Token when we do 'python3 -m pyrobot'"""
 
     def __init__(self):
         name = self.__class__.__name__.lower()
