@@ -7,6 +7,17 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "prettyconf"
+version = "2.2.1"
+description = "Separation of settings from code."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+aws = ["boto3"]
+
+[[package]]
 name = "pyaes"
 version = "1.6.1"
 description = "Pure-Python Implementation of the AES block-cipher and common modes of operation"
@@ -46,11 +57,14 @@ python-versions = "~=3.6"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "0f1f7d80ee0586849b736d0337a59cc807544fcd26114cbbdee63fb7ca30d21e"
+content-hash = "f73d12dfff1feddcb6a0f7226f35c77d8caca07c364cf295c2a976417f6284f9"
 
 [metadata.files]
 async-lru = [
     {file = "async_lru-1.0.2.tar.gz", hash = "sha256:baa898027619f5cc31b7966f96f00e4fc0df43ba206a8940a5d1af5336a477cb"},
+]
+prettyconf = [
+    {file = "prettyconf-2.2.1.tar.gz", hash = "sha256:2478d16bc2596c9863e93dd182ca70b71f636f0e169ab23288906c53147cfdbc"},
 ]
 pyaes = [
     {file = "pyaes-1.6.1.tar.gz", hash = "sha256:02c1b1405c38d3c370b085fb952dd8bea3fadcee6411ad99f312cc129c536d8f"},

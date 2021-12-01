@@ -1,20 +1,22 @@
-from os import environ
+from os import getcwd
 
+from prettyconf import Configuration
+from prettyconf.loaders import EnvFile, Environment
 
-def load_var(var_name: str, def_value=None):
-    return environ.get(var_name, def_value)
+env_file = f"{getcwd()}/.env"
+config = Configuration(loaders=[Environment(), EnvFile(filename=env_file)])
 
 
 class Config:
     """Config class for variables."""
 
-    TOKEN = load_var("TOKEN")
-    APP_ID = int(load_var("APP_ID"))
-    API_HASH = load_var("API_HASH")
-    OWNER_ID = int(load_var("OWNER_ID"))
-    PREFIX_HANDLER = load_var("PREFIX_HANDLER", "/ !").split()
-    NO_LOAD = load_var("NO_LOAD", [])
-    WORKERS = int(load_var("WORKERS", 8))
+    TOKEN = config("TOKEN")
+    APP_ID = int(config("APP_ID"))
+    API_HASH = config("API_HASH")
+    OWNER_ID = int(config("OWNER_ID"))
+    PREFIX_HANDLER = config("PREFIX_HANDLER", default="/ !").split()
+    NO_LOAD = config("NO_LOAD", default=[])
+    WORKERS = int(config("WORKERS", default=8))
 
 
 class Development:
