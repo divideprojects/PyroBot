@@ -230,7 +230,7 @@ python-versions = "*"
 
 [[package]]
 name = "pyclean"
-version = "2.0.0"
+version = "2.1.0"
 description = "Pure Python cross-platform pyclean. Clean up your Python bytecode."
 category = "dev"
 optional = false
@@ -372,7 +372,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "e4bccb9de135b72b11cb4ef45553adf1f7f4082589088f2f66f86e4cd42a9be6"
+content-hash = "e5b03dc8310c3a165df05e4998ae8ddf29284088ffb4fedd1908af9a99ce95b4"
 
 [metadata.files]
 astroid = [
@@ -495,8 +495,8 @@ pyaes = [
     {file = "pyaes-1.6.1.tar.gz", hash = "sha256:02c1b1405c38d3c370b085fb952dd8bea3fadcee6411ad99f312cc129c536d8f"},
 ]
 pyclean = [
-    {file = "pyclean-2.0.0-py3-none-any.whl", hash = "sha256:ac9bb87f0fffe12acbc2292150f92ec30ca1935acf2b45e9fa24dc64efe9b379"},
-    {file = "pyclean-2.0.0.tar.gz", hash = "sha256:06e62e5a26f9b0eaebe249a1a74db17daf35c0216688b6fceb8f55f0d6eb7a40"},
+    {file = "pyclean-2.1.0-py3-none-any.whl", hash = "sha256:ba7de34210e0d67a3e19c959ddf0baa3f936c296645e43c825fd0f4bd9481abd"},
+    {file = "pyclean-2.1.0.tar.gz", hash = "sha256:085318a99aa31deafb6d94ed3dd283ec7b833c7f86e54ef09fb381a5d146a926"},
 ]
 pylint = [
     {file = "pylint-2.12.2-py3-none-any.whl", hash = "sha256:daabda3f7ed9d1c60f52d563b1b854632fd90035bcf01443e234d3dc794e3b74"},
