@@ -249,7 +249,7 @@ python-versions = "*"
 
 [[package]]
 name = "pylint"
-version = "2.13.2"
+version = "2.13.3"
 description = "python code static checker"
 category = "dev"
 optional = false
@@ -387,7 +387,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "b9900932b921489c11e3e181bec6305bd6db3e654a66cfaf4cabd04582ff9cef"
+content-hash = "a5bb57362877c360917dd5e2dc91e94c68fd32c731fb25e944b5b8c3350b4c5e"
 
 [metadata.files]
 astroid = [
@@ -518,8 +518,8 @@ pyclean = [
     {file = "pyclean-2.2.0.tar.gz", hash = "sha256:48f1801804fa2f04f2c64348da8bd61797fc9722e1120c470d5cc67a205843c7"},
 ]
 pylint = [
-    {file = "pylint-2.13.2-py3-none-any.whl", hash = "sha256:3cd8eb401c6aa6c66b614d72cf0c54a02d6bf7752aa9890fc41de71030f3c81a"},
-    {file = "pylint-2.13.2.tar.gz", hash = "sha256:0c6dd0e53e6e17f2d0d62660905f3868611e734e9d9b310dc651a4b9f3dc70da"},
+    {file = "pylint-2.13.3-py3-none-any.whl", hash = "sha256:c8837b6ec6440e3490ab8f066054b0645a516a29ca51ce442f16f7004f711a70"},
+    {file = "pylint-2.13.3.tar.gz", hash = "sha256:12ed2520510c40db647e4ec7f747b07e0d669b33ab41479c2a07bb89b92877db"},
 ]
 pyrogram = [
     {file = "Pyrogram-1.4.12-py3-none-any.whl", hash = "sha256:8e1b4a4d7fe24066a0005f5738882ca775eb945496415e07729ff2372239ed3d"},
