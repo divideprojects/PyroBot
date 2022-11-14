@@ -8,7 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.7"
 Pyrogram = "^2.0.59"
-TgCrypto = "^1.2.4"
+TgCrypto = "^1.2.5"
 prettyconf = "^2.2.1"
 
 [tool.poetry.dev-dependencies]
