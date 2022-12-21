@@ -28,11 +28,11 @@ Simple Base for Users Who want to make their own Telegram Bots in **[Pyrogram](h
 
 ## Report Bugs
 
-Report Bugs in [@DivideProjectsDiscussion](https://t.me/DivideProjectsDiscussion)
+Report Bugs in [@DivideSupport](https://t.me/DivideSupport)
 
 ## Credits
 - [Dan Tès](https://telegram.dog/haskell) for [Pyrogram Library](https://github.com/Pyrogram/Pyrogram)
 
 ## Powered By
 
-[![DivideProjects](https://img.shields.io/badge/Divide-Projects-green?style=for-the-badge&logo=appveyor)](https://t.me/DivideProjectsDiscussion)
+[![DivideProjects](https://img.shields.io/badge/Divide-Projects-green?style=for-the-badge&logo=appveyor)](https://t.me/DivideSupport)
