@@ -16,7 +16,7 @@ pylint = "^2.13.9"
 pre-commit = "^2.21.0"
 pyclean = "^2.6.0"
 isort = "^5.11.5"
-black = "^22.12"
+black = "^23.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
