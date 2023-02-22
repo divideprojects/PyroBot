@@ -10,9 +10,9 @@
         "telegram bot",
         "tg bot"
     ],
-    "repository": "https://github.com/DivideProjects/PyroBot",
+    "repository": "https://github.com/divkix/PyroBot",
     "success_url": "https://t.me/DivideProjects",
-    "website": "https://github.com/DivideProjects",
+    "website": "https://github.com/divkix",
     "stack": "heroku-20",
     "env": {
         "ENV": {

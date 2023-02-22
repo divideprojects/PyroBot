@@ -4,9 +4,9 @@ Simple Base for Users Who want to make their own Telegram Bots in **[Pyrogram](h
 
 ## How to add modules?
 
-- Fork and add your modules in **[pyrobot/modules](https://github.com/DivideProjects/PyroBot/blob/main/pyrobot/plugins)**
-- Add Required ENV Variables in **[app.json](https://github.com/DivideProjects/PyroBot/blob/main/app.json)** & in **[vars.py](https://github.com/DivideProjects/PyroBot/blob/main/pyrobot/vars.py)**
-- Add required external requirements in **[requirements.txt](https://github.com/DivideProjects/PyroBot/blob/main/requirements.txt)** or/and **[pyproject.toml](https://github.com/DivideProjects/PyroBot/blob/main/pyproject.toml)**
+- Fork and add your modules in **[pyrobot/modules](https://github.com/divkix/PyroBot/blob/main/pyrobot/plugins)**
+- Add Required ENV Variables in **[app.json](https://github.com/divkix/PyroBot/blob/main/app.json)** & in **[vars.py](https://github.com/divkix/PyroBot/blob/main/pyrobot/vars.py)**
+- Add required external requirements in **[requirements.txt](https://github.com/divkix/PyroBot/blob/main/requirements.txt)** or/and **[pyproject.toml](https://github.com/divkix/PyroBot/blob/main/pyproject.toml)**
 
 ## Hosting
 
@@ -14,13 +14,13 @@ Simple Base for Users Who want to make their own Telegram Bots in **[Pyrogram](h
 
 - Heroku Deploy is Very Simple, Just Click the Button Below
 
-    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DivideProjects/PyroBot)
+    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/divkix/PyroBot)
 
 ### Local Deploy
 
 **Note:** Make sure you already have [poetry](https://python-poetry.org/) installed on your system!
 
-- `git clone https://github.com/DivideProjects/PyroBot.git`
+- `git clone https://github.com/divkix/PyroBot.git`
 - `cd PyroBot`
 - `poetry install && poetry shell`
 - Edit The `vars.py` as per the instruction given there.

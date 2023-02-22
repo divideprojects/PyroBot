@@ -38,7 +38,7 @@ async def test_bot(_, m: Message):
                 [
                     InlineKeyboardButton(
                         "Repo 📚",
-                        url="https://github.com/DivideProjects/PyroBot",
+                        url="https://github.com/divkix/PyroBot",
                     ),
                 ],
             ],
