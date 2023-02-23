@@ -2,7 +2,7 @@
 name = "PyroBot"
 version = "1.0.0"
 description = "A template which I use to make my telegram bots!"
-authors = ["Divkix <techdroidroot@gmail.com>"]
+authors = ["Divkix <divkix@divkix.me>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
